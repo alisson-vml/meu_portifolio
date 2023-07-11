@@ -83,7 +83,6 @@ nav{
 .nav-links:hover{
     color: var(--dark4);
     transition: .4s;
-    text-decoration: underline;
 }
 .box-btn-actions{
     display: flex;
@@ -246,4 +245,7 @@ footer > div{
 }
 .img-who-am-i{
     box-shadow: 1px 1px 1px 1px var(--cyan1);
+}
+.contact__svg:hover{
+    fill:#89a7b1;
 }
