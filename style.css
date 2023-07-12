@@ -48,6 +48,10 @@ body{
     font-family: 'lato';
 
 }
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
 
 header{
     display: flex;
@@ -55,9 +59,13 @@ header{
     align-items: center;
     gap: 1rem;  /*1 rem = 16px*/
     flex-wrap: wrap;
-    padding: .8rem;
+    padding: .2rem;
     background-color: var(--dark6);
     min-height: 50 px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .box-img-header{
     height: 100%;
